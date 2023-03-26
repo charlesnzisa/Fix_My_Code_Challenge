@@ -4,6 +4,7 @@
     
     The size of the square must be the first argument 
     of the program.
+    change in size = parseInt(process.argv[2], 16)
 */
 
 
@@ -22,3 +23,4 @@ for (let i = 0 ; i < size ; i ++) {
     }
     process.stdout.write("\n");
 }
+
